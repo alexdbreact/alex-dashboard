@@ -21,7 +21,6 @@ export default function DataTables() {
         }
 
         const fetchedData = await res.json();
-        console.log("Fetched Data:", fetchedData); // Debugging
 
         // Ensure fetchedData is an array
         if (Array.isArray(fetchedData)) {
