@@ -25,7 +25,6 @@ export default function DataTables() {
         }
 
         const fetchedData = await res.json();
-        console.log("Fetched Data:", fetchedData);
 
         if (Array.isArray(fetchedData)) {
           setData(fetchedData);
