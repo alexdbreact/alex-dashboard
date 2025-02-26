@@ -203,12 +203,20 @@ export default function DataTables() {
 
                 <td className="p-3 bg-teal-100 text-teal-900 font-bold min-w-full rounded-lg  text-center  ">
                   {main.start}
+           <hr />
+
                   {main.start2}
+           <hr />
+
                   {main.start3}
                 </td>
                 <td className="p-3 bg-teal-600 text-teal-100 font-bold min-w-full rounded-lg text-center  ">
                   {main.tash}
+           <hr />
+
                   {main.tash2}
+           <hr />
+
                   {main.tash3}
                 </td>
 
